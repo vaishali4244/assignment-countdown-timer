@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 20rem;
+  min-width: 55vw;
+  border: 1px solid rgb(227, 175, 175);
+  border-radius: 15px;
+  box-shadow: 0 0 0 8px rgb(245, 181, 181);
+  background-color: rgb(249, 204, 204);
+}
+h1 {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.input-time {
+  width: 5rem;
+  height: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 1vh 2vw;
+  border-radius: 8px;
+}
+
+.timer-labels,
+.timer-inputs,
+.container-btns,
+.timer-display {
+  display: flex;
+  min-width: 50vw;
+  height: 80%;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.timer-labels p {
+  max-width: 3rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.colon {
+  font-weight: 600;
+}
+
+button {
+  width: 6.5rem;
+  height: 2.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.start {
+  background: rgb(1, 118, 1);
+  color: white;
+}
+.stop {
+  background: rgb(231, 1, 1);
+  color: white;
+}
+
+.reset {
+  background-color: rgb(113, 113, 247);
+}
